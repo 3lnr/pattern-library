@@ -1,0 +1,11 @@
+.cpl-site-wrapper {
+  background-color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.cpl-section {
+  width: 68%;
+  margin: 0 auto;
+}

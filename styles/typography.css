@@ -1,0 +1,42 @@
+body {
+  font-family: 'Andale Mono', Helvetica;
+  font-size: 100%;
+}
+
+h1,
+.cpl-header__title {
+  color: #1d1c1c;
+  text-transform: lowercase;
+  font-family: 'Andale Mono', Tahoma
+}
+
+h2,
+.cpl-heading-two,
+.cpl-section__heading {
+  color: #4a989f;
+}
+
+h3,
+.cpl-heading-three {
+  color: #1d1c1c;
+}
+
+h4,
+.cpl-heading-four {
+  color: #4e4b4b;
+}
+
+p,
+.cpl-par {
+  color: #676363;
+  font-family: Helvetica;
+  line-height: 1.5em;
+  font-weight: lighter;
+}
+
+.cpl-emp {
+  color: #676363;
+  font-style: italic;
+  font-size: 120%;
+  font-weight: lighter;
+}
