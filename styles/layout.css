@@ -7,7 +7,12 @@
 
 .cpl-section {
   width: 100%;
+  padding: 2.5em 0;
 }
+
+/*.cpl-section:nth-of-type(even) {
+  background-color: #eeebfc;
+}*/
 
 .cpl-section-wrapper {
   width: 58%;

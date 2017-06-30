@@ -4,6 +4,7 @@ body {
 }
 
 h1,
+.cpl-heading-one,
 .cpl-header__title {
   color: #1d1c1c;
   text-transform: lowercase;
@@ -14,6 +15,8 @@ h2,
 .cpl-heading-two,
 .cpl-section__heading {
   color: #4a989f;
+  padding-bottom: 0.625em;
+  border-bottom: solid 1px #eee;
 }
 
 h3,
