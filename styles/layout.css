@@ -6,6 +6,16 @@
 }
 
 .cpl-section {
-  width: 68%;
+  width: 100%;
+}
+
+.cpl-section-wrapper {
+  width: 58%;
   margin: 0 auto;
+}
+
+.cpl-section-wrapper::after {
+  content: '';
+  display: block;
+  width: 100%;
 }

@@ -34,6 +34,24 @@ p,
   font-weight: lighter;
 }
 
+p a,
+.cpl-par a,
+.cpl-par__link {
+  color: #4a989f;
+  text-decoration: none;
+  display: inline-block;
+}
+
+p a::after,
+.cpl-par a::after,
+.cpl-par__link::after {
+  content: '';
+  background-color: #4a989f;
+  height: 1px;
+  width: 100%;
+  display: block;
+}
+
 .cpl-emp {
   color: #676363;
   font-style: italic;
